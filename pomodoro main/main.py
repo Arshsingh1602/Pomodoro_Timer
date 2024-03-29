@@ -18,6 +18,8 @@ def reset_button():
     timer_label.config(text="Timer",fg = GREEN)
     check_label.config(text="")
     canvas.itemconfig(canvas_text,text="00:00")
+    global reps 
+    reps = 0
 
 # ---------------------------- TIMER MECHANISM ------------------------------- # 
 
